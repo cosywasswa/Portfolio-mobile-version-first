@@ -1,41 +1,41 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 header {
   width: 375px;
   background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 30px 10px;
   align-items: center;
 }
 
-header h3 {
-  position: relative;
-  top: 20px;
+header a {
   font-family: 'Roboto Serif', serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
   color: rgb(255, 255, 255);
-}
-
-header #union {
-  position: relative;
-  top: 20px;
+  text-decoration: none;
 }
 
 .home {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 10px;
+  padding: 120px 20px;
   gap: 12px;
-  position: absolute;
   width: 375px;
   height: 590px;
   background: #1c1a19;
   background-image: url(images/Group.png);
   background-repeat: no-repeat;
-  background-position: bottom 150px right -2px;
+  background-position: bottom right;
 }
 
 .headline h1 {
@@ -52,7 +52,6 @@ header #union {
 }
 
 .headline h2 {
-  position: relative;
   width: 327px;
   font-weight: 700;
   font-size: 24px;
@@ -62,7 +61,6 @@ header #union {
   flex-grow: 0;
   font-family: 'Roboto Serif', serif;
   font-style: normal;
-  margin-top: 0;
 }
 
 .headline p {
@@ -71,12 +69,9 @@ header #union {
   line-height: 24px;
   font-size: 16px;
   font-style: normal;
-  width: 327px;
   height: 123px;
   color: #fff;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  margin: 10px 0 0 0;
 }
 
 .social-icons ul {
@@ -84,22 +79,8 @@ header #union {
   justify-content: space-between;
   width: 200px;
   height: 50px;
-  position: relative;
-  top: -50px;
-  left: -40px;
   list-style: none;
-}
-
-.social-icons ul li #vec {
-  position: relative;
-  left: 15px;
-  top: 3px;
-}
-
-.social-icons ul li #dot {
-  position: relative;
-  top: -15px;
-  left: -145px;
+  align-items: center;
 }
 
 #shape1 {
