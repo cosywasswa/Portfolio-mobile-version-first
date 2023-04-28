@@ -114,6 +114,8 @@ run the index.html
 
 - [ ] **[projects page]**
 - [ ] **[contact page]**
+- [ ] **[works page]**
+- [ ] **[About-me page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +141,7 @@ If you like this project give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the knowledge given.
+I would like to thank Microverse for the knowledge and guidance given.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +151,7 @@ I would like to thank Microverse for the knowledge given.
 
 - **[How can the project be improved]**
 
-  - [More page features are needed]
+  - [More page features are needed including form page]
 
 - **[Can I use this project for study purposes]**
 
