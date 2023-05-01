@@ -157,8 +157,6 @@ header a {
 }
 
 .languages ul {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
   width: 327px;
   padding: 20px;
@@ -180,10 +178,12 @@ header a {
 }
 
 .languages ul a {
+  float:left;
   text-decoration: none;
   border: 1px solid #8993a4;
-  padding: 10px 12px;
+  padding: 8px 5px;
   color: black;
+  margin: 0% 2%;
 }
 
 .project2 {
