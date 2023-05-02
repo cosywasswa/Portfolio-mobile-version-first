@@ -373,3 +373,12 @@ header a {
   position: relative;
   top: 35px;
 }
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 906px;
+  padding: 120px 10px;
+}
+
