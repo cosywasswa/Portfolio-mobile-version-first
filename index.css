@@ -15,7 +15,7 @@ header {
 }
 
 header a {
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 18px;
@@ -41,7 +41,7 @@ header a {
 .headline h1 {
   position: relative;
   width: 327px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 56px;
   font-weight: 400;
   font-style: normal;
@@ -59,12 +59,12 @@ header a {
   display: flex;
   align-items: center;
   flex-grow: 0;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   font-style: normal;
 }
 
 .headline p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -121,7 +121,7 @@ header a {
 
 .recent-works {
   height: 83px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 30px;
   padding: 70px 20px;
 }
@@ -138,7 +138,7 @@ header a {
 }
 
 .works-head h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   height: 36px;
   align-items: center;
   font-size: 32px;
@@ -147,7 +147,7 @@ header a {
 }
 
 .works-head p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   display: flex;
@@ -176,7 +176,7 @@ header a {
   background-color: #ff6b00;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .seeproject a {
@@ -188,7 +188,7 @@ header a {
   background-color: #ff6b00;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .experience ul li a {
@@ -197,7 +197,7 @@ header a {
   margin: 15px;
   display: block;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 200;
 }
@@ -225,7 +225,12 @@ header a {
 .project5 {
   width: 327px;
   height: 386px;
-  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Img\ Placeholderproj.svg);
+  background-image: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/Img\ Placeholderproj.svg);
   display: grid;
   grid-template-rows: 20% 40% 9% 30%;
   gap: 20px;
@@ -263,7 +268,7 @@ header a {
 .text1 {
   width: 295px;
   height: 81px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   padding-top: 50px;
   padding-left: 10px;
@@ -272,7 +277,7 @@ header a {
 .text2 {
   width: 301px;
   height: 91px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   padding-top: 20px;
   padding-left: 10px;
@@ -316,7 +321,7 @@ header a {
 
 .about-me h1 {
   width: 327px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 72px;
   font-weight: 400;
   color: #ff6b00;
@@ -327,7 +332,7 @@ header a {
   height: 148px;
   position: relative;
   top: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: regular;
   font-size: 16px;
   color: #f4f5f7;
@@ -342,7 +347,7 @@ header a {
   background-color: #ff6b00;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-img {
@@ -365,7 +370,7 @@ header a {
 .experience ul li h4 {
   font-size: 25px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -382,3 +387,97 @@ header a {
   padding: 120px 10px;
 }
 
+.form-area .creator h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+  font-size: 32px;
+  font-style: normal;
+  color: #172b4d;
+  line-height: 44px;
+  margin-bottom: 15%;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  margin-top: -20px;
+  border: none;
+  background-color: #fbf8f7;
+  padding-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #3c3a39;
+}
+
+.field {
+  border-style: none;
+}
+
+.field input {
+  width: 327px;
+  height: 18px;
+  padding: 20px 0;
+  border-style: none;
+  border-bottom: 2px solid #e5e5e5;
+  margin-bottom: 40px;
+}
+
+form button {
+  width: 131px;
+  height: 48px;
+  align-content: center;
+  position: relative;
+  top: 25px;
+  left: 90px;
+  background-color: #ff6b00;
+  border: 2px solid #ff6b00;
+}
+
+form button:hover {
+  border-color: green;
+}
+
+form button h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.form-area hr {
+  width: 375px;
+  height: 1px;
+  position: relative;
+  top: 125px;
+  left: -30px;
+}
+
+.social-icons2 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 50px;
+  list-style: none;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  left: 60px;
+}
+
+.hr2 {
+  width: 134px;
+  height: 5px;
+  position: relative;
+  top: 180px;
+  left: 80px;
+}
+
+textarea:hover {
+  border: 1px solid blue;
+}
