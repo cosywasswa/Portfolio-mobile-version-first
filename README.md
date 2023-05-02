@@ -68,7 +68,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Diplays a personal Portfolio]** -**[Diplays projects done]** -**[Diplays information about the developer]** -**[Diplays a contact form]**
+- **[Diplays a personal Portfolio]**
+  **[Diplays projects done]**
+  **[Diplays information about the developer]**
+  **[Diplays a contact form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +120,7 @@ Use index.html file.
 - [ ] **[contact page]**
 - [ ] **[works page]**
 - [ ] **[About-me page]**
-      -- [ ] **[Contact-form page]**
+- [ ] **[Contact-form page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
