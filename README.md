@@ -69,6 +69,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Diplays a personal Portfolio]**
+  **[Diplays projects done]**
+  **[Diplays information about the developer]**
+  **[Diplays a contact form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,6 +99,7 @@ Clone this repository to your desired folder:
 run the index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+Use index.html file.
 
 <!-- AUTHORS -->
 
@@ -116,6 +120,7 @@ run the index.html
 - [ ] **[contact page]**
 - [ ] **[works page]**
 - [ ] **[About-me page]**
+- [ ] **[Contact-form page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +156,7 @@ I would like to thank Microverse for the knowledge and guidance given.
 
 - **[How can the project be improved]**
 
-  - [More page features are needed including form page]
+  - [More features can be intergrated by adding more project details after user selects "see project"]
 
 - **[Can I use this project for study purposes]**
 
