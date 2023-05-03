@@ -404,7 +404,7 @@ header a {
 }
 
 textarea {
-  width: 327px;
+  width: 90%;
   height: 114px;
   margin-top: -20px;
   border: none;
@@ -421,7 +421,7 @@ textarea {
 }
 
 .field input {
-  width: 327px;
+  width: 90%;
   height: 18px;
   padding: 20px 0;
   border-style: none;
@@ -430,7 +430,7 @@ textarea {
 }
 
 form button {
-  width: 131px;
+  width: 35%;
   height: 48px;
   align-content: center;
   position: relative;
