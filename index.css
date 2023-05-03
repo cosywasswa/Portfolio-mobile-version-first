@@ -385,11 +385,6 @@
     top: 35px;
   }
 
-  footer .form-area {
-    margin: 0;
-    padding-left: 20;
-  }
-
   .form-area {
     display: flex;
     flex-direction: column;
