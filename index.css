@@ -528,4 +528,19 @@
     top: 170px;
     left: 90px;
   }
+
+  .social-icons {
+    animation: moveToLeft 2s ease-in-out;
+    animation-delay: 1000ms;
 }
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateY(150px);
+  }
+}
+  
+}
+
