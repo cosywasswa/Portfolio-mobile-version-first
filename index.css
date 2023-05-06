@@ -64,6 +64,27 @@
     font-style: normal;
   }
 
+  .animation-logo a {
+    font-size: 1rem;
+    font-weight: bold;
+    animation: name-effect 3s;
+  }
+
+  @keyframes name-effect {
+    from {
+      color: #fff;
+    }
+
+    50% {
+      color: #fc6703;
+      text-shadow: 0 0 20px #fc6703;
+    }
+
+    to {
+      color: #fff;
+    }
+  }
+
   .headline p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -354,6 +375,18 @@
     text-decoration: none;
     font-size: 16px;
     font-family: "Inter", sans-serif;
+    animation-name: change-background;
+    animation-duration: 5s;
+  }
+
+  @keyframes change-background {
+    from {
+      background-color: #ff6b00;
+    }
+
+    to {
+      background-color: blue;
+    }
   }
 
   .about-me-img {
@@ -507,5 +540,20 @@
     position: relative;
     top: 170px;
     left: 90px;
+  }
+
+  .social-icons {
+    animation: moveToLeft 2s ease-in-out;
+    animation-delay: 1000ms;
+  }
+
+  @keyframes moveToLeft {
+    0% {
+      transform: translateX(30px);
+    }
+
+    100% {
+      transform: translateY(150px);
+    }
   }
 }
