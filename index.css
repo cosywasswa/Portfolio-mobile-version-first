@@ -374,6 +374,16 @@
     text-decoration: none;
     font-size: 16px;
     font-family: "Inter", sans-serif;
+    animation-name: change-background;
+    animation-duration: 5s;
+  }
+
+  @keyframes change-background {
+    from {
+      background-color: #ff6b00;
+    }
+    to {
+      background-color: blue;}
   }
 
   .about-me-img {
@@ -541,6 +551,7 @@
     transform: translateY(150px);
   }
 }
+
   
 }
 
